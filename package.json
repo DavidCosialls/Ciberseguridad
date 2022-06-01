@@ -1,0 +1,22 @@
+{
+  "name": "rsa-module",
+  "version": "0.9.0",
+  "description": "rsa public key and private key manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@juanelas/base64": "^1.0.4",
+    "bigint-conversion": "^2.2.1",
+    "bigint-crypto-utils": "^3.0.23",
+    "object-sha": "^2.0.6",
+    "paillier-bigint": "^3.3.0",
+    "shamirs-secret-sharing": "^1.0.1"
+  },
+  "devDependencies": {
+    "ts-standard": "^11.0.0"
+  }
+}
